@@ -1,0 +1,61 @@
+/* Styles de base */
+body {
+    font-family: Zing+Rust+Base, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between; /* Pour placer les éléments à gauche et à droite */
+    align-items: center;
+    background-color: #030202;
+    color: #FFFD11;
+    text-align: center;
+    padding: 10px;
+    z-index: 100;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-right: 20px; /* Ajout de marge pour l'espacement entre le logo et le titre */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #030202;
+    text-align: center;
+    display: flex; /* Utilisation de flexbox pour aligner les éléments à droite */
+    justify-content: flex-end; /* Pour placer les éléments à droite */
+}
+
+nav li {
+    margin-left: 20px; /* Ajout de marge entre les éléments */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+footer {
+    background-color: #030202;
+    color: #FFFD11;
+    text-align: center;
+    padding: 20px;
+} 
